@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { useParams } from 'react-router-dom';
-import { db } from '../firebase';
+import { db } from '../firebase/firebase';
 import { doc, getDoc } from 'firebase/firestore';
 import MusicCard from '../components/MusicCard';
 import { AuthContext } from '../context/AuthContext';
